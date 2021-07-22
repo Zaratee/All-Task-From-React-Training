@@ -1,0 +1,141 @@
+.App {
+  text-align: center;
+  height: max-content;
+}
+.ScoreAndLives {
+  background: linear-gradient(90deg, rgba(41,88,124,1) 0%, rgba(68,139,149,1) 50%, rgba(215,186,111,1) 100%);  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 3vh;
+  font-size: 5vh;
+  box-shadow: 0px 6px 23px 9px rgba(0, 0, 0, 0.22);
+}
+.text-center{
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: center;
+  width: 100%;
+}
+.font-face-B20 {
+  font-family: "GoldmanBold";
+ }
+
+ .font-face-Encode {
+  font-family: "EncodeSansRegular";
+ }
+ .GameOver{
+   text-align: center;
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   margin-top: 12%;
+   
+ }
+
+.EnterTheMovie {
+  margin: auto;
+  width: 30%;
+  margin-top: 10%;
+}
+.btnSendMovie{
+  padding: 1vh;
+  background-color: green;
+  color: white;
+  border-radius: 10px;
+  border-color: transparent;
+  margin-top: 2vh;
+  font-weight: bold;
+  font-size: 2vh;
+  width: 12vh;
+  align-self: center;
+}
+.btnContinuePlaying{
+  padding: 1vh;
+  background-color: darkorange;
+  color: white;
+  border-radius: 10px;
+  border-color: transparent;
+  margin-top: 2vh;
+  font-weight: bold;
+  font-size: 2vh;
+  width: 20vh;
+  align-self: center;
+}
+.btnContinuePlaying:hover{
+  background-color: rgb(255, 170, 65);
+}
+.btnContinuePlaying:active{
+  background-color: rgb(219, 121, 1);
+  transform: translateY(1px);
+}
+.btnSendMovie:hover{
+  background-color: rgb(3, 145, 3);
+}
+.btnSendMovie:active{
+  background-color: rgb(1, 102, 1);
+  transform: translateY(1px);
+}
+.card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  padding: 7vh;
+  width: 50vh;
+  text-align: center;
+  border-radius: 10px;
+  background-color: white;
+  color: black;
+  font-size: 2vh;
+  align-self: center;
+}
+.card:hover {
+  box-shadow: 0 8px 26px 0 rgba(0,0,0,0.2);
+}
+.input{
+  width: 20vh;
+  height: 3vh;
+  padding: 1vh;
+  border-color: rgb(0, 0, 187);
+  border-radius: 10px;
+  color: black;
+}
+
+.Emojis{
+  font-size: 5vh;
+  padding: 2vh;
+}
+
+
+
+/* Add some padding inside the card container */
+.container {
+  padding: 2px 16px;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
